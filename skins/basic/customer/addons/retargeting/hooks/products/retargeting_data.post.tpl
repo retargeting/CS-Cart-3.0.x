@@ -54,12 +54,6 @@
         {rdelim});
     {rdelim});
 
-
-
-        if(document.querySelector("{$addons.retargeting.retargeting_qs_productImages}") !== null){ldelim}
-            document.querySelector("{$addons.retargeting.retargeting_qs_productImages}")[0].onclick = raClickImage;
-        {rdelim}
-
         if(typeof FB !== "undefined"){ldelim}
             FB.Event.subscribe('edge.create', function(){ldelim}
                 _ra.likeFacebook('{$product.product_id}');
